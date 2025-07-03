@@ -1,48 +1,37 @@
-# CodeAlpha_EDA 🚀
+# 🧪 EDA (Exploratory Data Analysis) Project
 
-Welcome to **CodeAlpha_EDA**, a project focused on Exploratory Data Analysis (EDA) workflows for structured datasets. This repository demonstrates best practices in data cleaning, feature engineering, visualization, and summarizing insights—all packaged in one place to kickstart your data science journey.
-
----
-
-## 📂 Table of Contents
-
-1. [Project Overview](#project-overview)  
-2. [Getting Started](#getting-started)  
-3. [Folder Structure](#folder-structure)  
-4. [Usage Examples](#usage-examples)  
-5. [Key Features](#key-features)  
-6. [Technologies](#technologies)  
-7. [Contributing](#contributing)  
-8. [Contact & Credits](#contact--credits)
+**Author:** Kodali Suchitra Kamala  
+**Purpose:** Perform comprehensive exploratory data analysis on datasets using Python libraries such as pandas, matplotlib, seaborn, and plotly.
 
 ---
 
-## 🧠 Project Overview
+## 📂 Repository Structure
 
-This repository guides users through:
+EDA/
+│
+├── data/
+│ ├── raw/ # Original datasets (e.g., CSV, Excel)
+│ └── processed/ # Cleaned and processed datasets
+│
+├── notebooks/ # Jupyter notebooks with EDA workflows
+│ ├── 01-data-cleaning.ipynb
+│ └── 02-visualization.ipynb
+│
+├── scripts/ # Python scripts for modular use
+│ ├── load_data.py
+│ ├── clean_data.py
+│ └── eda_plots.py
+│
+├── requirements.txt # Project dependencies
+├── README.md # This file
+└── .gitignore
 
-- 🔍 Loading CSV/Excel data.  
-- 🧼 Cleaning and preprocessing (handling nulls, duplicates, outliers).  
-- 💎 Feature engineering (creating meaningful variables).  
-- 📊 Visualizing distributions, correlations, and trends.  
-- 📋 Generating summary statistics and insights.
-
-Use this as a baseline for your own datasets, or adapt it for presentations and analytics pipelines.
 
 ---
 
-## 🛠️ Getting Started
+## 🚀 Getting Started
 
-### Requirements
-
-- Python 3.8+  
-- pandas  
-- numpy  
-- matplotlib  
-- seaborn  
-- jupyterlab (optional, but highly recommended)
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/KodaliSuchitraKamala/EDA.git
+   cd EDA
